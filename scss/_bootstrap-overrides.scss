@@ -1,0 +1,16 @@
+.bg-warning {
+  background-color: $warning !important;
+}
+
+.text-warning {
+  color: $warning !important;
+}
+
+a {
+  color: $warning;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($warning, 15%);
+  }
+}
